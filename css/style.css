@@ -18,7 +18,7 @@ div#body{
     max-width: 1024px;
     margin: 0 auto;
     padding-top:3%;
-    background-image: url(../../img/relax-3-min.jpg); 
+    background-image: url(../img/relax-3-min.jpg); 
     height: auto;
     padding-bottom: 4rem;
 }
@@ -135,7 +135,7 @@ footer nav{
     max-width: 1024px;
     margin: 0 auto;
     padding-top:3%;
-    background-image: url(../../img/see-1-min.png);
+    background-image: url(../img/see-1-min.png);
     background-position: center;
 }
 
@@ -225,7 +225,7 @@ aside{
     max-width: 1024px;
     margin: 0 auto;
     padding-top:3%;
-    background-image: url(../../img/food-2-min.jpg);
+    background-image: url(../img/food-2-min.jpg);
     background-position: center;
 }
 
@@ -270,7 +270,7 @@ div#body_sub_2 p{
     max-width: 1024px;
     margin: 0 auto;
     padding-top:3%;
-    background-image: url(../../img/walk-1-min.jpg);
+    background-image: url(../img/walk-1-min.jpg);
     background-position: center;
 }
 
@@ -308,7 +308,7 @@ div#body_sub_3 a{
     max-width: 1024px;
     margin: 0 auto;
     padding-top:3%;
-    background-image: url(../../img/exercise-1-min.jpg);
+    background-image: url(../img/exercise-1-min.jpg);
     background-position: top center;
 }
 
@@ -345,7 +345,7 @@ div#body_sub_4 a{
     max-width: 1024px;
     margin: 0 auto;
     padding-top:3%;
-    background-image: url(../../img/meditation-2-min.jpg);
+    background-image: url(../img/meditation-2-min.jpg);
     background-position: center top;
 }
 
