@@ -1,0 +1,457 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+html {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.clear{
+    clear:both;
+}
+
+/*-------------Style main page--------------*/
+
+div#body{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top:3%;
+    background-image: url(../../img/relax-3-min.jpg); 
+    height: auto;
+    padding-bottom: 4rem;
+}
+
+header{
+    padding: 3%;
+    position: relative;
+}
+
+div header img{
+    width: 65px;
+    height: auto;
+    float: none;
+    margin: 0px auto;
+    display: block;
+}
+
+nav#mainnav{
+    margin:4rem 0rem 0rem 4rem;
+    padding:0;
+    text-align: center;
+}
+
+nav#mainnav ul li{
+    display: inline;
+}
+
+nav#mainnav ul li a{
+    font-size: 1rem;
+    font-family: 'montserrat', Helvetica, Arial, sans-serif;
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    color: #4A4A4A;
+    border-bottom: .5rem solid #fff;
+    transition: .1s linear all;
+}
+
+nav#mainnav ul li a:hover,
+nav#mainnav ul li a.current{
+    color: #c4c3bf;
+    border-bottom: .5rem solid #c4c3bf;
+    transition: .3s linear all;
+}
+
+nav#metanav{
+    position: absolute;
+    top:10%;
+    right:5%;
+}
+
+nav#metanav ul li{
+    display: inline-block;
+    margin: 0 1rem;
+    font-family: 'montserrat', Helvetica, Arial, sans-serif;
+    color: #4A4A4A;
+}
+
+article{
+    width: 40%;
+    height: auto;
+    margin: 5rem 5rem;
+    padding-bottom:5rem ;
+    background: rgba(0,0,0,.45);
+}
+
+div#body article div{
+    width: 50%;
+    height: .7rem;
+    background-color: #F4D63C;
+}
+
+
+
+div#body article h1{
+    color: white;
+    font-family: 'montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 3.8rem;
+    margin: 1rem 1rem;
+}
+
+div#body article h2{
+    color: white;
+    font-family: 'montserrat', Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 1rem;
+}
+
+div#body article p{
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin: 1rem 1rem;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;   
+}
+
+footer nav{
+    display: none;
+}
+
+/*-------------Stle page 1-----------------*/
+
+#body_sub_1{
+    width: 100%;
+    height: 700px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top:3%;
+    background-image: url(../../img/see-1-min.png);
+    background-position: center;
+}
+
+div#body_sub_1 article div:nth-child(1){
+    width: 30%;
+    height: .7rem;
+    background-color: #B8E986;
+}
+
+div#body_sub_1 aside div:nth-child(1){
+    width: 30%;
+    height: .7rem;
+    background-color: #B8E986;
+}
+
+article.subpage{
+    width: 55%;
+    height: auto;
+    margin: 1% 1% 1% 3%;
+    background: rgba(0,0,0,.45);
+    float: left;
+    box-sizing: border-box;
+}
+
+article.subpage img{
+    width:200px;
+    height:200px;
+    margin: 1.5rem;
+    float: left;
+}
+
+.body_sub h1,h2,h3{
+    color: #fff;
+    margin: 1rem 1.5rem;
+}
+
+.body_sub h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.body_sub h2{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color:#b8e986;
+}
+
+.body_sub h3{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #aaa;
+    margin-bottom: -1rem;
+    margin-top: 1.5rem;
+}
+
+.body_sub p{
+    color: #fff;
+    line-height: 1.4rem;
+    font-weight: 100;
+    margin: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.body_sub a{
+    color: #b8e986;
+}
+
+aside{
+    width:37%;
+    height:auto;
+    float:right;
+    margin: 1% 3% 1% 1%;
+    background: rgba(0,0,0,.45);
+    padding-bottom: 1rem;
+}
+
+.body_sub aside img{
+    height: 100px;
+    width: 70px;
+    margin: 0rem 1.5rem 1.5rem 1.5rem;
+    float:left;
+}
+
+/*----------------Style page 2------------*/
+#body_sub_2{
+    width: 100%;
+    height: 630px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top:3%;
+    background-image: url(../../img/food-2-min.jpg);
+    background-position: center;
+}
+
+div#body_sub_2 article{
+    padding-bottom: 1rem;
+}
+
+div#body_sub_2 aside{
+    padding-bottom: .5rem;
+}
+
+div#body_sub_2 article div:nth-child(1){
+    width: 30%;
+    height: .7rem;
+    background-color: #00C4E1;
+}
+
+div#body_sub_2 aside div:nth-child(1){
+    width: 30%;
+    height: .7rem;
+    background-color: #00C4E1;
+}
+
+div#body_sub_2 h2{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color:#00C4E1;
+}
+
+div#body_sub_2 a{
+    color: #00C4E1;
+}
+
+div#body_sub_2 p{
+    margin-bottom: 1rem;
+}
+
+/*----------------Style page 3------------*/
+#body_sub_3{
+    width: 100%;
+    height: 700px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top:3%;
+    background-image: url(../../img/walk-1-min.jpg);
+    background-position: center;
+}
+
+div#body_sub_3 article div:nth-child(1){
+    width: 30%;
+    height: .7rem;
+    background-color: #F5A623;
+}
+
+div#body_sub_3 aside div:nth-child(1){
+    width: 30%;
+    height: .7rem;
+    background-color: #F5A623;
+}
+
+div#body_sub_3 aside img{
+    width: 150px;
+    
+}
+
+div#body_sub_3 h2{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color:#F5A623;
+}
+
+div#body_sub_3 a{
+    color: #F5A623;
+}
+
+/*----------------Style page 4------------*/
+#body_sub_4{
+    width: 100%;
+    height: 640px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top:3%;
+    background-image: url(../../img/exercise-1-min.jpg);
+    background-position: top center;
+}
+
+div#body_sub_4 article div:nth-child(1){
+    width: 30%;
+    height: .7rem;
+    background-color: #A9E3B1;
+}
+
+div#body_sub_4 aside div:nth-child(1){
+    width: 30%;
+    height: .7rem;
+    background-color: #A9E3B1;
+}
+
+div#body_sub_4 aside img{
+    width: 150px;
+}
+
+div#body_sub_4 h2{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color:#A9E3B1;
+}
+
+div#body_sub_4 a{
+    color: #A9E3B1;
+}
+
+/*----------------Style page 5------------*/
+#body_sub_5{
+    width: 100%;
+    height: 630px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top:3%;
+    background-image: url(../../img/meditation-2-min.jpg);
+    background-position: center top;
+}
+
+div#body_sub_5 article div:nth-child(1){
+    width: 30%;
+    height: .7rem;
+    background-color: #7696D5;
+}
+
+div#body_sub_5 aside div:nth-child(1){
+    width: 30%;
+    height: .7rem;
+    background-color: #7696D5;
+}
+
+div#body_sub_5 aside img{
+    width: 150px;
+}
+
+div#body_sub_5 h2{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color:#7696D5;
+}
+
+div#body_sub_5 a{
+    color: #7696D5;
+}
+
+@media screen and (max-width:450px){
+    
+    nav#mainnav{
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+    
+    nav#mainnav ul li{
+        display: block;
+    }
+    
+    nav#metanav{
+        display: none;
+    }
+    
+    footer nav{
+        display: inline-block;
+        float: left;
+    }
+    
+    footer nav ul li{
+        display: inline;
+    }
+    
+    div#body article{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    div#body article h1{
+        font-size: 2rem;
+    }
+    
+    div#body article h2{
+        font-size: 1.2rem;
+    }
+    
+    div.body_sub article{
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    div.body_sub article img{
+        float: none;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    div.body_sub aside{
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 1rem;
+        padding-bottom: 2rem;
+        
+    }
+    
+    #body_sub_1{
+    height: 1730px;
+    background-position: center top;
+  }
+    
+    #body_sub_2{
+    height: 1600px;
+  }
+    #body_sub_3{
+    height: 1500px;
+  }
+    #body_sub_4{
+    height: 1530px;
+  }
+    #body_sub_5{
+    height: 1660px;
+  }
+    
+}
